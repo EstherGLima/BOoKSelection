@@ -1,0 +1,123 @@
+/*Estilo da página inicial da livraria*/
+
+body{
+    background-color: #103f66;
+}
+div#topo{
+    background-color: #103f66;
+    width: 100%;
+
+}
+img#logoLoja{
+    vertical-align: top ;
+    position: relative; top: 35px; left: 530px;
+}
+img#carrinho{
+    vertical-align: top;
+    position: relative; top: 40px; left: 965px;
+}
+img#tracinhos{
+    vertical-align: top;
+    position: relative; top: 37px; right: 300px;
+}
+img#favoritos{
+    position: relative; top: 43px; left: 675px;
+}
+img#perfil{
+    position: relative; top: 43px; left: 710px;
+}
+form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative; top: 30px; left: 50px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    width: 1200px;
+    height: 30px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+nav#opcoes{
+    display: block;
+}
+nav#opcoes ul{
+    position: absolute;
+    top: 260px;
+}
+nav#opcoes li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    display: inline-block;
+    background-color:white;
+    margin: 15px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    position: relative; left: 150px;
+    text-align: center;
+}
+nav#opcoes a{
+    color: #000000;
+    text-decoration: none;
+}
+nav#opcoes a:hover{
+    color: skyblue;
+    text-decoration: underline;
+    transition: color 1s;
+}
+div#livros{
+    margin: 0;
+    border: 0;
+    position: relative; top: 100px;
+    padding: 20px;
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+h1#livraria{
+    position: relative; left: 10px;
+}
+.flex-container1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: absolute; top: 450px;
+    margin: 10px;
+
+    
+}
+.listalivros{
+    list-style: none;
+}
+.livros1{
+    font-size: 18pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: darkblue;
+}
+.flex-container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: relative; top:0px;
+    padding: 20px;
+    margin-bottom: 0px;
+}           
+.livros2{
+    font-size: 18pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: darkblue;
+}
+footer#rodape{
+    padding: 10px;
+}

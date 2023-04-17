@@ -1,0 +1,54 @@
+body {
+    background-color:#021033;
+    font-size:15px;
+    display:flex;
+    margin:0;
+    min-height:100vh;
+}
+    
+    h1{
+    font-size: 30px;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    padding:20px;
+    color: #021033;
+    text-align: left;
+  
+ }
+    
+    h2{
+    padding: 0;
+    font-size: 20px;
+    color: #021033;
+    text-align: left;
+  
+
+
+}
+    
+    p{
+    font-size: 15px;
+    color: #021033;
+    text-align: left;
+  
+}  
+    
+    a{
+    color: #95CCF4;
+}
+    
+    #fundo{
+    background-color: #123D65;
+    margin: 0;
+    display: block;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    }
+
+    #imagem{
+    height: 50px;
+    width: 50px;
+    position: relative; left: 300px;
+    position: relative; top: 10px;
+    
+    }
